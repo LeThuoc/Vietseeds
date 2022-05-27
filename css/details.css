@@ -1,0 +1,186 @@
+* {
+    font-family: 'Mulish', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    justify-content: space-between;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+}
+.mg-bot {
+    margin-bottom: 15px;
+}
+.mg-left {
+    margin-left: 20%;
+}
+.mg-right {
+    margin-right: 15%;
+}
+
+.nav-bar {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.nav-bar > ul {
+    display: flex;
+    height: fit-content;  
+    margin-top: 15px;
+    
+}
+.nav-bar > ul >li {
+    display: inline-flex;
+    list-style-type: none;
+    margin-right: 23px;
+    margin-top: 12px;
+    text-transform: uppercase;
+}
+.nav-bar > ul >li > a {
+    text-decoration: none;
+    color:#000;
+}
+.title {
+align-self: center;
+justify-self: center;
+}
+
+.title >h1 {
+    margin-top: 100px;
+    text-transform: uppercase;
+    color: rgb(133, 190, 26);
+    font-size: 39px;
+    text-align: center;
+}
+.title-nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.title-nav >p {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.title-nav >p > a {
+    font-size:14px ;
+    text-decoration: none;
+    color: rgb(133, 190, 26);
+    text-transform: uppercase;
+}
+.nav-button {
+    display: flex;
+    justify-content: center;
+}
+.nav-button > button {
+    margin-top: 14px;
+    background-color: #fff;
+    width: 100px;
+    height: 35px;
+    border: 1px solid rgb(219, 224, 223);
+    border-radius: 18px;
+}
+.nav-button > button > a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+.social-list {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.social-list > i {
+    color: rgb(98, 98, 98);
+    padding: 20px 20px;
+    font-size: 24px;
+    border: 1px solid rgb(98, 98, 98);
+    border-radius: 50%;
+    margin-right: 12px;
+}
+            /* main */
+.group-img {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 35px;
+}
+
+.main-content {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 29%;
+    margin-left: 29%;
+    border-top: 1px solid rgb(198, 198, 198);
+}
+.main-content > h2 {
+    margin-top: 30px;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.main-content > p {
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+.main-content >div > img {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.main-content >div > p {
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+            /* footer */
+.footer-container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 150px;
+    min-height: 330px;  
+    height: fit-content;
+    background-image: url(/Vietseeds/assets/images/Mask\ Group\ 7.png);
+}
+.footer-navbar {
+    padding-top: 10px;
+    height: 45px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-navbar > p {
+    color: #fff;
+}
+.nav-items {
+    display: flex;
+}
+.nav-items > ul {
+   
+    display: flex;
+}
+.nav-items > ul > li {
+    list-style-type: none; 
+    padding-left : 16px; 
+}
+.nav-items > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.copyright > p {
+    color: #fff;
+    font-size: 14px;
+}
+.copyright > img {
+    padding-bottom: 15px;
+}

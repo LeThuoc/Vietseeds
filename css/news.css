@@ -1,0 +1,191 @@
+* {
+    font-family: 'Mulish', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    justify-content: space-between;
+    height: 303px;
+    display: flex;
+    flex-direction: column;
+    background-color: #305600;   
+    background-blend-mode: color-burn;
+    background-image: url(/Vietseeds/assets/images/Rectangle.png);
+
+}
+.mg-bot {
+    margin-bottom: 15px;
+}
+.mg-left {
+    margin-left: 20%;
+}
+.mg-right {
+    margin-right: 15%;
+}
+.nav-bar {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.nav-bar > ul {
+    display: flex;
+    height: fit-content;  
+    margin-top: 15px;
+    
+}
+.nav-bar > ul >li {
+    display: inline-flex;
+    list-style-type: none;
+    margin-right: 23px;
+    margin-top: 12px;
+    text-transform: uppercase;
+}
+.nav-bar > ul >li > a {
+    text-decoration: none;
+    color: #fff;
+}
+.title {
+align-self: center;
+justify-self: center;
+}
+
+.title >h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 42px;
+}
+.title-nav {
+    display: flex;
+    justify-content: center;
+}
+.title-nav > ul > li {
+    display: inline-flex;
+    margin-right: 23px;
+}
+.title-nav > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.edge-bottom {
+    margin-bottom: -4px;
+}
+.slide > button {
+    color: rgb(29, 99, 32);
+    border: none;
+    background-color: #fff;
+    font-size: 20px;
+}
+.slide {
+    display:flex;
+    flex-direction: column;
+}
+.slide-content {
+    width: 33.33333%;    
+}
+.content-first {
+    display: flex;
+}
+.content-first > h3 {
+    height: 60px;
+    font-size: 18px;
+    width: 75%;
+    color: rgb(133, 190, 26);
+}
+.content-first > a {
+    color: #305600;
+    text-decoration: none;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+.content-second {
+    display: flex;
+}
+.content-second > p {
+    width: 60%;
+}
+.content-second > button {
+    background-color: #fff;
+    width: 35%;
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 18px;
+
+}
+.content-second > button >a {
+    color: #305600;
+    text-decoration: none;
+}
+.slide-title {
+    margin-top: 50px;
+    margin-bottom: 15px;
+
+}
+.slide-title > h2 {
+    font-size: 42px;
+    font-weight: 1000;
+    text-transform: capitalize;
+}
+.more {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    background-color: rgb(175, 213, 61);
+    height: 51px;
+    width: 380px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.more > a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16;
+}
+.footer-container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 150px;
+    min-height: 330px;  
+    height: fit-content;
+    background-image: url(/Vietseeds/assets/images/Mask\ Group\ 7.png);
+}
+.footer-navbar {
+    padding-top: 10px;
+    height: 45px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-navbar > p {
+    color: #fff;
+}
+.nav-items {
+    display: flex;
+}
+.nav-items > ul {
+   
+    display: flex;
+}
+.nav-items > ul > li {
+    list-style-type: none; 
+    padding-left : 16px; 
+}
+.nav-items > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.copyright > p {
+    color: #fff;
+    font-size: 14px;
+}
+.copyright > img {
+    padding-bottom: 15px;
+}
+
+
